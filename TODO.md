@@ -3,6 +3,13 @@
 ## Test Mini-RAG with AnythingLLM (sample text with a sample birthday)
 [x] done
 
+## Test MAC-Mini ollama
+[ ] update latest
+[ ] use same model as on szf-14
+[ ] use coding model
+[ ] connect to anythingllm on szf-14
+[ ] check RAG performace (where is Retriever running?)
+
 ## Test Mini-RAG with Claude Code (sample text with a sample birthday)
 [ ]
 

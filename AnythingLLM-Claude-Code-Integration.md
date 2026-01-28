@@ -108,13 +108,13 @@ AnythingLLM exposes REST API endpoints. Here's how to query a workspace:
 
 **Get Workspace List:**
 ```bash
-curl -X GET "http://localhost:3001/api/workspace" \
+curl -X GET "http://localhost:3001/api/v1/workspaces" \
   -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 **Query a Workspace (RAG Query):**
 ```bash
-curl -X POST "http://localhost:3001/api/workspace/{workspaceId}/chat" \
+curl -X POST "http://localhost:3001/api/v1/admin/workspace/{workspaceId}/chat" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
